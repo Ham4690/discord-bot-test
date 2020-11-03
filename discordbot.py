@@ -1,8 +1,9 @@
 # インストールした discord.py を読み込む
 import discord
+import os
 
 # 自分のBotのアクセストークンに置き換えてください
-TOKEN = 'NzcyNDE2Mzg5MzE0Mzc5Nzg2.X56W0g.ECLfFoFwpXHAHSpLP8dv31V3QBc'
+TOKEN = os.environ["ACCESS_TOKEN"]
 
 # 接続に必要なオブジェクトを生成
 client = discord.Client()
