@@ -1,0 +1,1 @@
+startbot: python discordbot.py
