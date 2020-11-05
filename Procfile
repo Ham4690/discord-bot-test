@@ -1,1 +1,1 @@
-startbot: python discordbot.py
+startbot: python playSound.py
